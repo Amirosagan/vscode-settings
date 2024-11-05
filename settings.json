@@ -1,0 +1,137 @@
+{
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontFamily": "jetBrains Mono NL Thin, monospace",
+    "terminal.integrated.defaultProfile.linux": "pash",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "k",
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        // Move selected lines while staying in visual mode
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        // toggle comment selection
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    "editor.lineNumbers": "on",
+    "editor.fontFamily": "JetBrains Mono,'Fira Code' , monospace",
+    "editor.fontLigatures": true,
+    "git.enableSmartCommit": true,
+    "tabnine.experimentalAutoImports": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.guides.bracketPairs": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "es": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "editor.inlineSuggest.enabled": true,
+    "php.debug.executablePath": "C:\\php-debug-pack-8.2.1-Win32-vs16-x64",
+    "php.executables": {
+        "php": "C:\\php-8.2.1-Win32-vs16-x64 (5)\\php.exe",
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "cpp": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "solidity.telemetry": true,
+    "workbench.startupEditor": "none",
+    "[solidity]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "editor.inlineSuggest.showToolbar": "always",
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path-linux": "/home/elsagan/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path-linux": "/home/elsagan/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+    },
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.cursorSmoothCaretAnimation": "on",
+}
